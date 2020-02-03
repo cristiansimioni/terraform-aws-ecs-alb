@@ -2,6 +2,7 @@
 
 ### How to test this infrastructure:
 
+
 1) Run the following commands:
 
 ```
@@ -11,14 +12,12 @@ terraform apply -auto-approve
 
 2) Enter your AWS credentials
 
-3) After creating everything, the load balancer dns will appear
+3) After creating everything, the load balancer dns name will appear. For example:
 
-```
-Outputs:
-
-alb-hostname = cristiansimioni-load-balancer-1572569508.us-west-2.elb.amazonaws.com
-```
+<img src="image/albdnsname.png" align="middle">
 
 4) Open it on a browser
 
-Enjoy! :)
+<img src="image/webservice.png" align="middle">
+
+Enjoy! :smile:
